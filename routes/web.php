@@ -22,11 +22,11 @@ Route::get('/home', function () {
     return redirect('admin');
 });
 
+use TCG\Voyager\Facades\Voyager;
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
-
 
 Route::group(['middleware'=>'auth'], function() {
     Route::post('admin/gym/memberships/','Voyager\PersonController@Memberships')->middleware('auth')->name('gym.memberships');

@@ -43,7 +43,7 @@
 			<div class="header-wrap">
 				<div class="header-top d-flex justify-content-between align-items-center">
 					<div class="logo">
-						<a href="{{ route('welcome')}}"><img src="{{voyager::image(setting('site.logo'))}}" height="70" width="70"></a>
+						<a href="{{ route('welcome')}}"><img src="{Voyager::image(setting('site.logo'))}}" height="70" width="70"></a>
 					</div>
 					<div class="main-menubar d-flex align-items-center">
 						<nav class="hide">
@@ -84,7 +84,7 @@
 
 
 		{{-- <!-- Strat Footer Area --> --}}
-		<footer class="section-gap footer-widget-area" style="background: url({{voyager::image(setting('site-main-pages.footer'))}}) no-repeat center center/cover;">
+		<footer class="section-gap footer-widget-area" style="background: url({{Voyager::image(setting('site-main-pages.footer'))}}) no-repeat center center/cover;">
 			<div class="overlay overlay-bg"></div>
 			<div class="container">
 				<div class="row">

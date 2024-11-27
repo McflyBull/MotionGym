@@ -28,7 +28,7 @@
 
 	
 	
-	<section class="section-gap carousel-area" style="background: url({{voyager::image(setting('site-main-pages.carousel_background'))}}) no-repeat center center/cover;">
+	<section class="section-gap carousel-area" style="background: url({{Voyager::image(setting('site-main-pages.carousel_background'))}}) no-repeat center center/cover;">
 		{{-- <section class="section-gap carousel-area"> --}}
 			<div class="overlay overlay-bg"></div>
 			<div class="active-bottle-carousel">

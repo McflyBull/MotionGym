@@ -24,7 +24,7 @@
 					</div>
 				</div>
 				<div class="col-lg-5 col-md-5 col-sm-4">
-					<img src="{{ voyager::image(setting('site-main-pages.banner')) }}" alt="" class="img-fluid">
+					<img src="{{ Voyager::image(setting('site-main-pages.banner')) }}" alt="" class="img-fluid">
 				</div>
 			</div>
 		</div>
@@ -32,7 +32,7 @@
 
 
 
-	<section class="video-area" style="background: url({{ voyager::image(setting('site-main-pages.gym_tour_background')) }}) no-repeat center center/cover;">
+	<section class="video-area" style="background: url({{ Voyager::image(setting('site-main-pages.gym_tour_background')) }}) no-repeat center center/cover;">
 		<div class="overlay overlay-bg"></div>
 		<div class="container">
 			<div class="video-content">

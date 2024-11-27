@@ -38,7 +38,7 @@
     <nav class="navbar navbar-top navbar-horizontal navbar-expand-md navbar-dark">
       <div class="container px-4">
         <a class="navbar-brand" href="{{route('welcome')}}">
-          <img src="{{ voyager::image(setting('site.logo')) }}" />
+          <img src="{{ Voyager::image(setting('site.logo')) }}" />
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-main" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +51,7 @@
             <div class="row">
               <div class="col-6 collapse-brand">
                 <a href="{{route('welcome')}}">
-                  <img src="{{ voyager::image(setting('site.logo')) }}">
+                  <img src="{{ Voyager::image(setting('site.logo')) }}">
                 </a>
               </div>
               <div class="col-6 collapse-close">
